@@ -4,14 +4,21 @@
 // Zero dependencies (Node 20+ native fetch).
 
 import { readFileSync } from 'node:fs';
+import { homedir } from 'node:os';
+import { join } from 'node:path';
 
 // ---- tiny .env loader (no dep) ----
-try {
-  for (const line of readFileSync(new URL('./.env', import.meta.url), 'utf8').split('\n')) {
-    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
-    if (m) process.env[m[1]] ??= m[2].replace(/^["']|["']$/g, '');
-  }
-} catch { /* rely on real env */ }
+function loadEnvFile(path) {
+  try {
+    for (const line of readFileSync(path, 'utf8').split('\n')) {
+      const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
+      if (m) process.env[m[1]] ??= m[2].replace(/^["']|["']$/g, '');
+    }
+  } catch { /* file not there, skip */ }
+}
+// Repo-local .env wins; otherwise fall back to the keys peek.mjs saved in your home folder.
+loadEnvFile(new URL('./.env', import.meta.url));
+loadEnvFile(join(homedir(), '.banksnipe-nordea.env'));
 
 const BASE          = process.env.NORDEA_BASE   || 'https://api.nordeaopenbanking.com';
 const CLIENT_ID     = process.env.CLIENT_ID;

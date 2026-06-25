@@ -5,9 +5,16 @@
 //   node peek.mjs <CLIENT_ID> <CLIENT_SECRET>
 //
 // Self-contained: zero dependencies, Node 18+ (uses built-in fetch). No .env, no clone.
+// On success it also saves your two keys to ~/.banksnipe-nordea.env so the dashboard
+// step (npm start) can reuse them without you re-entering anything.
+
+import { writeFileSync } from 'node:fs';
+import { homedir } from 'node:os';
+import { join } from 'node:path';
 
 const CLIENT_ID     = process.argv[2] || process.env.CLIENT_ID;
 const CLIENT_SECRET = process.argv[3] || process.env.CLIENT_SECRET;
+const KEYS_FILE     = join(homedir(), '.banksnipe-nordea.env');
 
 const BASE     = 'https://api.nordeaopenbanking.com';
 const REDIRECT = 'https://example.com/callback';
@@ -77,6 +84,13 @@ async function run() {
   }
   console.log('\n  And here is the bank\'s raw answer, exactly as it came back:\n');
   console.log(JSON.stringify(data, null, 2));
+
+  // Save the keys in your home folder so the dashboard step can reuse them.
+  try {
+    writeFileSync(KEYS_FILE, `CLIENT_ID=${CLIENT_ID}\nCLIENT_SECRET=${CLIENT_SECRET}\n`, { mode: 0o600 });
+    console.log(`\n  ✓ Saved your keys to ${KEYS_FILE}`);
+    console.log('    so the dashboard can reuse them. Delete that file any time.\n');
+  } catch { /* non-fatal: dashboard step can still use a .env */ }
 }
 
 function fail(msg) {
