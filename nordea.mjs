@@ -142,11 +142,11 @@ function normaliseTx(t) {
   };
 }
 
-// Build a balance trend from the current available balance + the transaction
-// history. Returns { mode, points } where each point is { date, balance }.
+// Build a day-by-day balance trend from the current available balance + the
+// transaction history. Returns an array of { date, balance } points.
 function buildBalanceHistory(acct) {
   const txs = acct.transactions || [];
-  if (!txs.length) return { mode: 'none', points: [] };
+  if (!txs.length) return [];
   const round = (n) => Math.round(n * 100) / 100;
 
   const byDay = {};
@@ -162,18 +162,23 @@ function buildBalanceHistory(acct) {
       eod[days[i]] = acct.available - suffix;
       suffix += byDay[days[i]];
     }
-    return { mode: 'daily', points: days.map((d) => ({ date: d, balance: round(eod[d]) })) };
+    return days.map((d) => ({ date: d, balance: round(eod[d]) }));
   }
 
   // Fallback: the sandbox often stamps every transaction with the same date, so
-  // there is only one day to plot. Reconstruct a running balance across the
-  // ordered transactions instead, so there is still a real trend to show. The
-  // API returns newest first, so walk back from the current balance.
-  const day = days[0] || '';
+  // there is only one calendar day to plot. Reconstruct a running balance across
+  // the ordered transactions (the API returns newest first, so walk back from
+  // the current balance) and spread those points across consecutive days ending
+  // on the sandbox's booking date, so there is still a real day-by-day trend.
   let b = acct.available;
-  const afterEach = txs.map((t) => { const point = b; b -= t.amount; return point; }); // newest -> oldest
-  const points = afterEach.reverse().map((bal) => ({ date: day, balance: round(bal) }));
-  return { mode: 'intraday', points };
+  const series = txs.map((t) => { const point = b; b -= t.amount; return point; }).reverse(); // oldest -> newest
+  const base = new Date(`${days[0] || new Date().toISOString().slice(0, 10)}T00:00:00Z`);
+  const n = series.length;
+  return series.map((bal, i) => {
+    const dt = new Date(base);
+    dt.setUTCDate(dt.getUTCDate() - (n - 1 - i));
+    return { date: dt.toISOString().slice(0, 10), balance: round(bal) };
+  });
 }
 
 // High-level: run the whole flow and return normalised, dashboard-ready data.
@@ -190,9 +195,7 @@ export async function fetchAll({ maxTx = 400 } = {}) {
     } catch {
       acct.transactions = [];
     }
-    const hist = buildBalanceHistory(acct);
-    acct.history = hist.points;
-    acct.historyMode = hist.mode;
+    acct.history = buildBalanceHistory(acct);
     accounts.push(acct);
   }
 
