@@ -53,10 +53,11 @@ function compact(n, currency) {
   return `${s} ${currency}`;
 }
 
-// Inline SVG area+line chart of end-of-day balance over time.
+// Inline SVG area+line chart of the balance trend over time.
 function balanceChart(acct) {
   const h = acct.history || [];
   if (h.length < 2) return `<div class="card"><div class="state">Not enough history to chart.</div></div>`;
+  const intraday = acct.historyMode === 'intraday';
 
   const W = 760, H = 240, padL = 56, padR = 16, padT = 18, padB = 30;
   const xAt = (i) => padL + i * ((W - padL - padR) / (h.length - 1));
@@ -78,8 +79,20 @@ function balanceChart(acct) {
             <text x="${padL - 8}" y="${(+y + 4).toFixed(1)}" text-anchor="end" class="ax">${compact(val, acct.currency)}</text>`;
   }).join('');
 
-  const dots = h.map((d, i) => `<circle cx="${xAt(i).toFixed(1)}" cy="${yAt(d.balance).toFixed(1)}" r="3" fill="${GREEN}"/>`).join('');
-  const xlabels = h.map((d, i) => `<text x="${xAt(i).toFixed(1)}" y="${H - 8}" text-anchor="middle" class="ax">${dayTick(d.date)}</text>`).join('');
+  // With many points (e.g. the intraday fallback) dots and per-point labels get
+  // too dense, so only show dots for short series and thin the x-axis ticks.
+  const dots = h.length <= 30
+    ? h.map((d, i) => `<circle cx="${xAt(i).toFixed(1)}" cy="${yAt(d.balance).toFixed(1)}" r="3" fill="${GREEN}"/>`).join('')
+    : '';
+  const step = Math.max(1, Math.ceil(h.length / 8));
+  const xlabels = h
+    .map((d, i) => ({ d, i }))
+    .filter(({ i }) => i % step === 0 || i === h.length - 1)
+    .map(({ d, i }) => {
+      const label = intraday ? `#${i + 1}` : dayTick(d.date);
+      return `<text x="${xAt(i).toFixed(1)}" y="${H - 8}" text-anchor="middle" class="ax">${label}</text>`;
+    })
+    .join('');
 
   const svg = `<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" class="lc">
     ${grids}
@@ -96,7 +109,7 @@ function balanceChart(acct) {
   return `<div class="card chart">
     ${svg}
     <div class="chart-foot">
-      <span class="muted mono">${h.length} days · ${dayTick(h[0].date)} → ${dayTick(h.at(-1).date)}</span>
+      <span class="muted mono">${intraday ? `${h.length} transactions · ${dayTick(h[0].date)}` : `${h.length} days · ${dayTick(h[0].date)} → ${dayTick(h.at(-1).date)}`}</span>
       <span>Net change <b class="${change < 0 ? 'neg' : 'pos'}">${money(change, acct.currency)}</b></span>
       <span class="muted">In <b class="pos">${money(inflow, acct.currency)}</b></span>
       <span class="muted">Out <b class="neg">${money(outflow, acct.currency)}</b></span>

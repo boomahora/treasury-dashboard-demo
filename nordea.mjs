@@ -142,21 +142,38 @@ function normaliseTx(t) {
   };
 }
 
-// Reconstruct end-of-day balances from the current available balance + the
-// transaction history. eod(day) = current - (net of all days after that day).
+// Build a balance trend from the current available balance + the transaction
+// history. Returns { mode, points } where each point is { date, balance }.
 function buildBalanceHistory(acct) {
   const txs = acct.transactions || [];
-  if (!txs.length) return [];
+  if (!txs.length) return { mode: 'none', points: [] };
+  const round = (n) => Math.round(n * 100) / 100;
+
   const byDay = {};
   for (const t of txs) byDay[t.date] = (byDay[t.date] || 0) + t.amount;
   const days = Object.keys(byDay).sort(); // ascending YYYY-MM-DD
-  const eod = {};
-  let suffix = 0;
-  for (let i = days.length - 1; i >= 0; i--) {
-    eod[days[i]] = acct.available - suffix;
-    suffix += byDay[days[i]];
+
+  // Preferred: 2+ distinct days -> end-of-day balance series.
+  // eod(day) = current available - (net of all days after that day).
+  if (days.length >= 2) {
+    const eod = {};
+    let suffix = 0;
+    for (let i = days.length - 1; i >= 0; i--) {
+      eod[days[i]] = acct.available - suffix;
+      suffix += byDay[days[i]];
+    }
+    return { mode: 'daily', points: days.map((d) => ({ date: d, balance: round(eod[d]) })) };
   }
-  return days.map((d) => ({ date: d, net: Math.round(byDay[d] * 100) / 100, balance: Math.round(eod[d] * 100) / 100 }));
+
+  // Fallback: the sandbox often stamps every transaction with the same date, so
+  // there is only one day to plot. Reconstruct a running balance across the
+  // ordered transactions instead, so there is still a real trend to show. The
+  // API returns newest first, so walk back from the current balance.
+  const day = days[0] || '';
+  let b = acct.available;
+  const afterEach = txs.map((t) => { const point = b; b -= t.amount; return point; }); // newest -> oldest
+  const points = afterEach.reverse().map((bal) => ({ date: day, balance: round(bal) }));
+  return { mode: 'intraday', points };
 }
 
 // High-level: run the whole flow and return normalised, dashboard-ready data.
@@ -173,7 +190,9 @@ export async function fetchAll({ maxTx = 400 } = {}) {
     } catch {
       acct.transactions = [];
     }
-    acct.history = buildBalanceHistory(acct);
+    const hist = buildBalanceHistory(acct);
+    acct.history = hist.points;
+    acct.historyMode = hist.mode;
     accounts.push(acct);
   }
 
