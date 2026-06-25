@@ -1,0 +1,83 @@
+/* ============================================================
+   BankSnipe — Color tokens
+   A cool-neutral "open reference" palette: paper + ink, with a
+   single confident signal-green accent and a 5-step API
+   maturity ramp (the signature brand system element).
+   ============================================================ */
+:root {
+  /* ---- Neutrals: ink (text) → paper (surface) ---- */
+  --ink-950: #0b0d11;   /* display headings */
+  --ink-900: #14171d;
+  --ink-800: #232830;
+  --ink-700: #353b45;   /* body text */
+  --ink-600: #4a515c;
+  --ink-500: #5e6671;   /* secondary text */
+  --ink-400: #838b97;   /* muted / captions */
+  --ink-300: #a9b0bb;   /* disabled text */
+  --ink-250: #c3c9d2;
+  --ink-200: #d8dce2;   /* strong border */
+  --ink-150: #e6e9ee;   /* hairline border */
+  --ink-100: #eef1f4;   /* subtle fill */
+  --ink-50:  #f6f7f9;   /* surface alt */
+  --paper:   #ffffff;   /* card surface */
+  --paper-tint: #f7f8fa;/* page background */
+
+  /* ---- Primary accent: signal green (mature / verified / go) ---- */
+  --green-50:  #ebf8f1;
+  --green-100: #d4f0e1;
+  --green-200: #a7e0c2;
+  --green-400: #34b377;
+  --green-500: #169a64;
+  --green-600: #0e8455;  /* primary */
+  --green-700: #0a6644;  /* hover/pressed */
+  --green-800: #074d34;
+
+  /* ---- API maturity ramp (1–5): neutral → deep green ---- */
+  --maturity-1: #aeb4bd;  /* Nascent */
+  --maturity-2: #8cc0a3;  /* Emerging */
+  --maturity-3: #4faf7e;  /* Established */
+  --maturity-4: #1f9560;  /* Advanced */
+  --maturity-5: #0b6e44;  /* Mature */
+  --maturity-track: #e6e9ee;
+
+  /* ---- Product tag hues (AIS / PIS / CBPII / Premium) ---- */
+  --ais-fg:  #2960c9;  --ais-bg:  #e8eefb;   /* account info */
+  --pis-fg:  #6244c8;  --pis-bg:  #ece8fa;   /* payments */
+  --cbpii-fg:#0f8298;  --cbpii-bg:#dff1f4;   /* confirmation of funds */
+  --prem-fg: #a76a12;  --prem-bg: #f8edd6;   /* premium / beyond-PSD2 */
+
+  /* ---- Semantic status ---- */
+  --success-fg: #0a6644;  --success-bg: #ebf8f1;
+  --warning-fg: #9a6a0e;  --warning-bg: #fbf0d8;
+  --danger-fg:  #c0392f;  --danger-bg:  #fbe9e7;
+  --info-fg:    #2960c9;  --info-bg:    #e8eefb;
+
+  /* ============================================================
+     Semantic aliases — reference these in components
+     ============================================================ */
+  --text-strong:  var(--ink-950);
+  --text-body:    var(--ink-700);
+  --text-secondary: var(--ink-500);
+  --text-muted:   var(--ink-400);
+  --text-disabled:var(--ink-300);
+  --text-on-accent: #ffffff;
+  --text-link:    var(--green-700);
+
+  --surface-page: var(--paper-tint);
+  --surface-card: var(--paper);
+  --surface-alt:  var(--ink-50);
+  --surface-sunken: var(--ink-100);
+  --surface-inverse: var(--ink-950);
+
+  --accent:        var(--green-600);
+  --accent-hover:  var(--green-700);
+  --accent-active: var(--green-800);
+  --accent-tint:   var(--green-50);
+
+  --border-hair:    var(--ink-150);
+  --border-default: var(--ink-200);
+  --border-strong:  var(--ink-250);
+  --border-accent:  var(--green-600);
+
+  --focus-ring: 0 0 0 3px rgba(14, 132, 85, 0.28);
+}

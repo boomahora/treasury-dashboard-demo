@@ -1,0 +1,33 @@
+/* ============================================================
+   BankSnipe — Borders & elevation tokens
+   Hairline borders do most of the structural work; shadows are
+   restrained. Cards lift on a near-flat surface, not a deep one.
+   ============================================================ */
+:root {
+  /* ---- Border presets ---- */
+  --border-width: 1px;
+  --rule-hair:    1px solid var(--ink-150);
+  --rule-default: 1px solid var(--ink-200);
+  --rule-strong:  1px solid var(--ink-250);
+  --rule-accent:  1px solid var(--green-600);
+
+  /* ---- Shadows (cool-tinted, subtle) ---- */
+  --shadow-xs: 0 1px 1px rgba(11, 13, 17, 0.04);
+  --shadow-sm: 0 1px 2px rgba(11, 13, 17, 0.05), 0 1px 1px rgba(11, 13, 17, 0.04);
+  --shadow-md: 0 2px 6px rgba(11, 13, 17, 0.07), 0 1px 2px rgba(11, 13, 17, 0.04);
+  --shadow-lg: 0 8px 24px rgba(11, 13, 17, 0.10), 0 2px 6px rgba(11, 13, 17, 0.05);
+  --shadow-pop:0 12px 40px rgba(11, 13, 17, 0.16);
+
+  /* ---- Card presets ---- */
+  --card-radius: var(--radius-md);
+  --card-border: var(--rule-default);
+  --card-shadow: var(--shadow-sm);
+  --card-shadow-hover: var(--shadow-md);
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);     /* @kind other */
+  --ease-in-out: cubic-bezier(0.45, 0, 0.2, 1);      /* @kind other */
+  --dur-fast: 110ms;                                  /* @kind other */
+  --dur-base: 170ms;                                  /* @kind other */
+  --dur-slow: 280ms;                                  /* @kind other */
+}

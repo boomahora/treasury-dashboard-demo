@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Treasury dashboard — live cash position</title>
+<link rel="stylesheet" href="/ds/styles.css">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    font-family: var(--font-sans);
+    background: var(--surface-page);
+    color: var(--text-body);
+    -webkit-font-smoothing: antialiased;
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+  }
+
+  /* ---- app bar ---- */
+  .appbar {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--gutter);
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: saturate(180%) blur(8px);
+    border-bottom: 1px solid var(--border-hair);
+  }
+  .bar-left { display: flex; align-items: center; gap: var(--space-4); }
+  .logo-slot {
+    display: inline-flex; align-items: center; justify-content: center;
+    height: 34px; padding: 0 var(--space-4);
+    border: 1px dashed var(--border-strong); border-radius: var(--radius-sm);
+    font-family: var(--font-mono); font-size: var(--text-2xs); text-transform: uppercase;
+    letter-spacing: var(--tracking-wide); color: var(--text-muted); background: var(--surface-alt);
+  }
+  .appname { font-weight: var(--weight-bold); font-size: var(--text-lg); color: var(--text-strong); letter-spacing: var(--tracking-snug); }
+  .bar-right { display: flex; align-items: center; gap: var(--space-4); }
+  .synced { font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); }
+  .poweredby { font-size: var(--text-2xs); color: var(--text-muted); white-space: nowrap; }
+  .bsmark { font-weight: var(--weight-bold); color: var(--text-strong); letter-spacing: var(--tracking-snug); }
+  .bsmark b { color: var(--accent); font-weight: var(--weight-bold); }
+
+  /* ---- balance trend chart ---- */
+  .chart { padding: var(--space-5) var(--space-5); }
+  .lc { display: block; }
+  .lc .ax { font-family: var(--font-mono); font-size: 10px; fill: var(--text-muted); }
+  .chart-foot { display: flex; flex-wrap: wrap; gap: var(--space-5); align-items: center; margin-top: var(--space-4); padding-top: var(--space-4); border-top: 1px solid var(--border-hair); font-size: var(--text-sm); color: var(--text-body); }
+  .chart-foot b { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+  .status {
+    display: inline-flex; align-items: center; gap: var(--space-2);
+    font-family: var(--font-mono); font-size: var(--text-xs);
+    letter-spacing: var(--tracking-wide);
+    padding: 4px 10px; border-radius: var(--radius-pill);
+    background: var(--success-bg); color: var(--success-fg);
+    border: 1px solid var(--green-200);
+  }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green-500); }
+
+  /* ---- layout ---- */
+  .wrap { max-width: var(--container-max); margin: 0 auto; padding: var(--space-10) var(--gutter) var(--space-20); }
+  .page-title { font-size: var(--text-2xl); font-weight: var(--weight-semibold); color: var(--text-strong); letter-spacing: var(--tracking-snug); margin: 0; }
+  .page-sub { color: var(--text-secondary); margin: var(--space-2) 0 0; font-size: var(--text-sm); }
+  .eyebrow { font-family: var(--font-mono); font-size: var(--text-2xs); text-transform: uppercase; letter-spacing: var(--tracking-wider); color: var(--text-muted); margin: var(--space-10) 0 var(--space-4); }
+  .eyebrow:first-of-type { margin-top: var(--space-8); }
+
+  /* ---- stat cards ---- */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--space-4); }
+  .stat { background: var(--surface-card); border: 1px solid var(--border-default); border-radius: var(--radius-md); padding: var(--space-5) var(--space-5); box-shadow: var(--shadow-sm); }
+  .stat .label { font-family: var(--font-mono); font-size: var(--text-2xs); text-transform: uppercase; letter-spacing: var(--tracking-wider); color: var(--text-muted); }
+  .stat .figure { font-family: var(--font-mono); font-size: var(--text-2xl); font-weight: var(--weight-semibold); color: var(--text-strong); margin-top: var(--space-2); font-variant-numeric: tabular-nums; letter-spacing: var(--tracking-snug); }
+  .stat .ccy { font-size: var(--text-sm); color: var(--text-muted); margin-left: 4px; }
+  .stat.accent .figure { color: var(--accent); }
+
+  /* ---- tables ---- */
+  .card { background: var(--surface-card); border: 1px solid var(--border-default); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); overflow: hidden; }
+  table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+  th { text-align: left; font-family: var(--font-mono); font-size: var(--text-2xs); text-transform: uppercase; letter-spacing: var(--tracking-wide); color: var(--text-muted); font-weight: var(--weight-medium); padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--border-hair); background: var(--surface-alt); }
+  td { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--border-hair); color: var(--text-body); }
+  tr:last-child td { border-bottom: 0; }
+  .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  .pos { color: var(--success-fg); }
+  .neg { color: var(--danger-fg); }
+  .mono { font-family: var(--font-mono); }
+  .muted { color: var(--text-muted); }
+  .acct-name { color: var(--text-strong); font-weight: var(--weight-medium); }
+  tbody.click tr { cursor: pointer; }
+  tbody.click tr:hover { background: var(--surface-alt); }
+  tbody.click tr.active { background: var(--accent-tint); }
+
+  .tag { display: inline-block; font-family: var(--font-mono); font-size: var(--text-2xs); padding: 2px 7px; border-radius: var(--radius-sm); background: var(--ais-bg); color: var(--ais-fg); }
+
+  .state { padding: var(--space-16) var(--gutter); text-align: center; color: var(--text-muted); }
+  .spinner { width: 22px; height: 22px; border: 2px solid var(--border-default); border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; margin: 0 auto var(--space-4); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  footer { border-top: 1px solid var(--border-hair); background: var(--surface-card); }
+  .footwrap { max-width: var(--container-max); margin: 0 auto; padding: var(--space-8) var(--gutter); font-size: var(--text-sm); color: var(--text-muted); line-height: var(--leading-relaxed); }
+  footer a { color: var(--text-link); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <header class="appbar">
+    <div class="bar-left">
+      <div class="logo-slot">Your logo</div>
+      <div class="appname">Treasury</div>
+    </div>
+    <div class="bar-right">
+      <span class="synced" id="synced"></span>
+      <span class="status"><span class="dot"></span><span id="conn">Connecting…</span></span>
+      <span class="poweredby">Built by <span class="bsmark">Bank<b>Snipe</b></span></span>
+    </div>
+  </header>
+
+  <main class="wrap" id="app">
+    <div class="state"><div class="spinner"></div>Pulling your cash position from the bank…</div>
+  </main>
+
+  <footer>
+    <div class="footwrap">
+      Built by <a href="https://banksnipe.com">BankSnipe</a> — an open index of European bank APIs.
+      Data shown is from the Nordea Open Banking <b>sandbox</b> (test data, not real accounts).
+      Always confirm details against each bank's developer portal.
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

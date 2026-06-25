@@ -1,0 +1,2468 @@
+{
+  "generatedAt": "2026-06-23T13:32:15.652Z",
+  "bank": "Nordea",
+  "environment": "sandbox",
+  "currencyTotals": {
+    "NOK": 321206.44999999995
+  },
+  "accounts": [
+    {
+      "id": "NO61735686908-NOK",
+      "name": "Kjell Aaberg",
+      "holder": "Kjell Aaberg Holder",
+      "type": "Current",
+      "product": "Avtaleprodukter",
+      "currency": "NOK",
+      "iban": "NO2261735686908",
+      "bban": "61735686908",
+      "bic": "NDEANOKK",
+      "bankName": "Nordea",
+      "country": "NO",
+      "available": 159077.52,
+      "booked": 159077.52,
+      "status": "OPEN",
+      "transactions": [
+        {
+          "id": "23349abb-3459-4462-b1f6-fc8c6e5a0f4a",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1343,
+          "currency": "NOK"
+        },
+        {
+          "id": "54451d4f-825e-47bf-ad24-9147d39d35a4",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -306,
+          "currency": "NOK"
+        },
+        {
+          "id": "f7bbfc3e-aa56-407d-87fc-e1258630b46d",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -1275,
+          "currency": "NOK"
+        },
+        {
+          "id": "4b093a58-7c76-46a5-9ee7-7693db8c1d6f",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 6012.63,
+          "currency": "NOK"
+        },
+        {
+          "id": "338ea8e5-b786-44f5-a015-6962a2a9d7df",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -5097.6,
+          "currency": "NOK"
+        },
+        {
+          "id": "5f32c184-b910-4160-84fa-86989a8e303e",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -193.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "801f3009-1a74-4cf2-a769-ed13cd4e65cc",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -35.77,
+          "currency": "NOK"
+        },
+        {
+          "id": "213885ee-9b8a-467b-8aa5-c8467bdd38ad",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1340,
+          "currency": "NOK"
+        },
+        {
+          "id": "72dc6be6-dc4a-45ee-9fa3-81d176ee308b",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1581,
+          "currency": "NOK"
+        },
+        {
+          "id": "6702a2d1-e215-4cd2-b35f-cc4fab8a1b2d",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -1100,
+          "currency": "NOK"
+        },
+        {
+          "id": "fab21070-42a4-4776-8c32-260a0abf0a4e",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -762.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "8e0b1e4f-d4ae-4111-b9b9-5fbc4a706539",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -64.97,
+          "currency": "NOK"
+        },
+        {
+          "id": "7cefb67b-249e-4431-9b57-afb0c8c32d3c",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -375,
+          "currency": "NOK"
+        },
+        {
+          "id": "215264b9-3692-4847-8ab1-ca8b6bf36dfd",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -250,
+          "currency": "NOK"
+        },
+        {
+          "id": "16bdbb12-152f-407d-96a5-ae85d09fc165",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -6606.47,
+          "currency": "NOK"
+        },
+        {
+          "id": "d11a195d-a104-4095-bf64-9ceddd53945a",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1420,
+          "currency": "NOK"
+        },
+        {
+          "id": "5a1744af-cb31-4bfa-9522-dbf269fa5278",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -73.73,
+          "currency": "NOK"
+        },
+        {
+          "id": "9c69606d-47ec-432e-a3a5-5635a709a138",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -912.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "a33110de-58b9-4a16-b369-dfe5ca975937",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -520,
+          "currency": "NOK"
+        },
+        {
+          "id": "1f3d1372-4342-458a-97ed-25d3652fcb4d",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -6796.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "3dc84481-c185-4fdd-a979-1e984a45daa3",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -7.84,
+          "currency": "NOK"
+        },
+        {
+          "id": "f7037fef-2041-4159-878b-05efc44fa5d3",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1156,
+          "currency": "NOK"
+        },
+        {
+          "id": "c6af388d-8e85-46a9-ab0b-5a67510fda24",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -314.28,
+          "currency": "NOK"
+        },
+        {
+          "id": "a548fd09-b348-421c-8e4d-da74cc8b987a",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -275,
+          "currency": "NOK"
+        },
+        {
+          "id": "d21e4bd3-8846-45c1-9562-7d21a5193b2a",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1350,
+          "currency": "NOK"
+        },
+        {
+          "id": "de1d911b-1753-46a4-b5f6-5157642a1451",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -175.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "6ebf1ddc-33ab-4be7-bf18-d1518c0b7f11",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -25.2,
+          "currency": "NOK"
+        },
+        {
+          "id": "f57ba241-091a-4581-9133-77e15614e592",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1700,
+          "currency": "NOK"
+        },
+        {
+          "id": "efe5a196-6725-4cf3-b711-b917c61f6c23",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -7.56,
+          "currency": "NOK"
+        },
+        {
+          "id": "cbdc14be-cbe3-418e-91ad-55c022e3d561",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -74.46,
+          "currency": "NOK"
+        },
+        {
+          "id": "631b045a-9317-47c4-b8b6-bca6264eacaf",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -210,
+          "currency": "NOK"
+        },
+        {
+          "id": "081198c3-20a3-4e51-966d-964f3ed1dea6",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -1475,
+          "currency": "NOK"
+        },
+        {
+          "id": "0c7d883a-f5ef-4c90-ad4a-4baf7a7bc538",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 272.72,
+          "currency": "NOK"
+        },
+        {
+          "id": "418a3e76-1b50-4370-95b5-f2afbacbb29a",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1180,
+          "currency": "NOK"
+        },
+        {
+          "id": "7ca67002-b0be-4a85-92af-837b89784cae",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -1800,
+          "currency": "NOK"
+        },
+        {
+          "id": "4a5abce8-8960-419c-b1bd-2a8275ead8da",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -709.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "1386205e-23f0-42b2-984e-5ed44bd6b745",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -2250,
+          "currency": "NOK"
+        },
+        {
+          "id": "055ad1b2-f1ed-4749-9567-2b9456a5cf70",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -238,
+          "currency": "NOK"
+        },
+        {
+          "id": "ee071775-405a-4fe3-af0e-5c222c713311",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -920,
+          "currency": "NOK"
+        },
+        {
+          "id": "f8950f57-98b1-46ad-aaf0-1ad7a16490a8",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -4305.34,
+          "currency": "NOK"
+        },
+        {
+          "id": "3a24a632-5ed0-45a8-b4f2-2649525dc898",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -780,
+          "currency": "NOK"
+        },
+        {
+          "id": "e9dff54e-2c3a-42b7-9d46-97c084682389",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -66.43,
+          "currency": "NOK"
+        },
+        {
+          "id": "f5078c31-5cf5-40ac-a131-89a712271888",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -740,
+          "currency": "NOK"
+        },
+        {
+          "id": "f7d22cfd-fd92-47a7-a2a8-59ae1a5c8380",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1800,
+          "currency": "NOK"
+        },
+        {
+          "id": "f4e8e733-570b-4976-a2b8-711e371044e3",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -1075,
+          "currency": "NOK"
+        },
+        {
+          "id": "59a36871-5080-42a7-b81a-2eefdad33111",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -1554.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "02d7c439-254e-462e-b2c6-ea631df9b345",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -1402.7,
+          "currency": "NOK"
+        },
+        {
+          "id": "cda6d10e-5aa4-4c9a-a539-bfa4d7258b01",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -412.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "e8d0bfc7-24e0-4f2e-8054-b1b363631e6f",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -29.2,
+          "currency": "NOK"
+        },
+        {
+          "id": "fb952383-4f32-45f6-b3fb-eb32d9ccdbdb",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 87.66,
+          "currency": "NOK"
+        },
+        {
+          "id": "41385c5c-2111-4774-a128-dd61ee406283",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -833,
+          "currency": "NOK"
+        },
+        {
+          "id": "8b0e19ee-2a46-4be4-8f78-2a7a3766578e",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -279,
+          "currency": "NOK"
+        },
+        {
+          "id": "ba73c63a-18a4-450a-9db4-a32a48a479bf",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -3488.81,
+          "currency": "NOK"
+        },
+        {
+          "id": "b1c88b29-89d8-4170-9f1b-1b0158dd1d09",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -220.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "ee997557-3176-4ade-89e0-1c2465729be7",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -27.44,
+          "currency": "NOK"
+        },
+        {
+          "id": "cc75c198-5937-4585-b469-8458df5ad406",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -305,
+          "currency": "NOK"
+        },
+        {
+          "id": "f5e0f26f-a3b2-4800-94e9-2eeb366cb12e",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -960,
+          "currency": "NOK"
+        },
+        {
+          "id": "73be58ab-9850-4d0c-8247-d2081864c084",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 1633.06,
+          "currency": "NOK"
+        },
+        {
+          "id": "e3fbb88c-d749-430b-a74d-33c865b8baf6",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 35500,
+          "currency": "NOK"
+        },
+        {
+          "id": "f3947eec-4ed1-4382-888f-7e423801890b",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 4000,
+          "currency": "NOK"
+        },
+        {
+          "id": "3d72112b-89aa-4d22-b5ff-0734c758acac",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -160,
+          "currency": "NOK"
+        },
+        {
+          "id": "10613730-d20f-4293-ae42-84be65fafc9c",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -500,
+          "currency": "NOK"
+        },
+        {
+          "id": "e73a75d6-cf40-473c-8472-0a826023e50c",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -16.24,
+          "currency": "NOK"
+        },
+        {
+          "id": "3aec8bd9-8254-454e-a660-74f086f35089",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 28000,
+          "currency": "NOK"
+        },
+        {
+          "id": "97797e4e-c819-483e-84c7-a3874ec34d6a",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -7858.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "c1dc75f7-0757-435c-a2f2-0d4b54770a3d",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1258,
+          "currency": "NOK"
+        },
+        {
+          "id": "4130ae70-9e3b-46ef-b946-b5a561c71055",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -25.48,
+          "currency": "NOK"
+        },
+        {
+          "id": "538476e4-00c0-45ea-8270-06a64ab8178f",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 4899.18,
+          "currency": "NOK"
+        },
+        {
+          "id": "d0b93ea6-95b0-452a-9bc2-ccf86a05d76e",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -155,
+          "currency": "NOK"
+        },
+        {
+          "id": "cf964646-3f17-4261-883a-5b4000958347",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -225,
+          "currency": "NOK"
+        },
+        {
+          "id": "a1c54856-10f2-4c6f-bd77-bf7308cd35be",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -255,
+          "currency": "NOK"
+        },
+        {
+          "id": "b52e177b-3a82-4043-92cc-e701ac481e1b",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 243.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "a8e7a6a8-ea01-4772-9898-7143cddff366",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -211.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "ac08cc02-c51a-41f5-93b7-1cf3cdca9757",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -354.9,
+          "currency": "NOK"
+        },
+        {
+          "id": "8b574c32-bf91-4fb5-82f3-3b866ed22171",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -1690,
+          "currency": "NOK"
+        },
+        {
+          "id": "69956a11-a040-420f-84dd-6e35c73e7eca",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -392.85,
+          "currency": "NOK"
+        },
+        {
+          "id": "0c97f90d-d912-450e-b781-65faace8dc04",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -6458.01,
+          "currency": "NOK"
+        },
+        {
+          "id": "9b8a995c-2d71-4d82-874c-fab7b92bc008",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -54.75,
+          "currency": "NOK"
+        },
+        {
+          "id": "38fee3e3-3b96-444a-9255-9c6f1370c792",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 19500,
+          "currency": "NOK"
+        },
+        {
+          "id": "bbc19d4c-3c8f-4abc-b4fd-796771f55ae9",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -24.82,
+          "currency": "NOK"
+        },
+        {
+          "id": "fedb1023-e6ea-49d0-b4b2-e7486077b200",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 48000,
+          "currency": "NOK"
+        },
+        {
+          "id": "d62df327-fb07-4579-9667-4830994a1176",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -925,
+          "currency": "NOK"
+        },
+        {
+          "id": "95288799-efeb-43eb-8078-6fe95e163d42",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1120,
+          "currency": "NOK"
+        },
+        {
+          "id": "0f8ddbfa-ab6a-4152-8053-5d8867b7a9f5",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -243,
+          "currency": "NOK"
+        },
+        {
+          "id": "92f69bfd-292b-405d-91e9-1b58865333fa",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -21,
+          "currency": "NOK"
+        },
+        {
+          "id": "937bd259-31fe-47a9-85f7-33cfcdabddc9",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1105,
+          "currency": "NOK"
+        },
+        {
+          "id": "54797982-605b-40f2-952b-78687e3e57d2",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -737.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "501d6c60-30bf-47d2-92e0-9c5d7ecfee33",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1598,
+          "currency": "NOK"
+        },
+        {
+          "id": "66199221-a190-45a9-82f6-ac6e594b16c8",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -200,
+          "currency": "NOK"
+        },
+        {
+          "id": "170ec5b2-16ec-434a-b1b1-7f762a0df828",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -450,
+          "currency": "NOK"
+        },
+        {
+          "id": "b98aa54c-2c13-44e5-999f-26ad63c24e3c",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -207,
+          "currency": "NOK"
+        },
+        {
+          "id": "997b1c5b-b0a9-47da-b154-3f907171694a",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1400,
+          "currency": "NOK"
+        },
+        {
+          "id": "82a66024-1c0c-4aa0-baba-c923227ce138",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 413.95,
+          "currency": "NOK"
+        },
+        {
+          "id": "23063fc1-b93c-4a6b-a1ab-92421e409341",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -121.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "bbc242a2-b052-4911-8c95-44bca6864c98",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1460,
+          "currency": "NOK"
+        },
+        {
+          "id": "2ae1838f-4396-4709-9190-8b8f2fc214c1",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -1639.3,
+          "currency": "NOK"
+        },
+        {
+          "id": "ade02a85-24bb-4a28-904e-d10408f00e16",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -825,
+          "currency": "NOK"
+        },
+        {
+          "id": "d931d619-e181-4f1e-9cb6-d74d941b4d0e",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -418.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "75afc277-806b-453b-9f9d-23b81f0a71e4",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -18.2,
+          "currency": "NOK"
+        },
+        {
+          "id": "09392edf-2884-4aac-90ac-e2150dc625b7",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -2275,
+          "currency": "NOK"
+        },
+        {
+          "id": "ac06cf0e-2177-47e6-ba18-8da5a1b9b70a",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -714,
+          "currency": "NOK"
+        },
+        {
+          "id": "5e525c16-f6b9-4a19-b510-ddf6ea2291cd",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -32.12,
+          "currency": "NOK"
+        },
+        {
+          "id": "55c0189c-21f6-4e65-8c44-67ef58379c73",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -265,
+          "currency": "NOK"
+        },
+        {
+          "id": "b9841a3b-3dd7-46b0-9683-c84a6300b237",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 53.57,
+          "currency": "NOK"
+        },
+        {
+          "id": "52aa9ee8-ba36-4685-a0d6-0b0d5dca4ac2",
+          "date": "2026-06-19",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1440,
+          "currency": "NOK"
+        },
+        {
+          "id": "d4e7bf7a-792e-44d0-90c3-0960157db96d",
+          "date": "2026-06-19",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 214.28,
+          "currency": "NOK"
+        },
+        {
+          "id": "359b500c-46ec-4536-8eb5-24ee4408df99",
+          "date": "2026-06-19",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -331.74,
+          "currency": "NOK"
+        },
+        {
+          "id": "e797b60e-ef18-4eed-b387-87628f5c0a42",
+          "date": "2026-06-19",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 26500,
+          "currency": "NOK"
+        },
+        {
+          "id": "16681077-fcb1-4429-8e3a-7f8360e6870e",
+          "date": "2026-06-19",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1734,
+          "currency": "NOK"
+        },
+        {
+          "id": "6bd9e1bc-fbef-4c69-a56c-dcb5a4aee706",
+          "date": "2026-06-20",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -2550,
+          "currency": "NOK"
+        },
+        {
+          "id": "f2276f69-b97f-4988-8682-33a15dfe79be",
+          "date": "2026-06-20",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -20.44,
+          "currency": "NOK"
+        },
+        {
+          "id": "91127b51-9019-459f-b693-061039283517",
+          "date": "2026-06-20",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1000,
+          "currency": "NOK"
+        },
+        {
+          "id": "cffdfaff-50b1-4526-a02d-85701ce15139",
+          "date": "2026-06-21",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -1270.83,
+          "currency": "NOK"
+        },
+        {
+          "id": "5d00357c-8fbb-41fd-83a1-19ccabb36295",
+          "date": "2026-06-21",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -500,
+          "currency": "NOK"
+        },
+        {
+          "id": "871a25d9-fca5-493b-92e0-ebdbdefc9960",
+          "date": "2026-06-21",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1625,
+          "currency": "NOK"
+        },
+        {
+          "id": "4de64745-f688-45f4-b153-5173d46d8bce",
+          "date": "2026-06-22",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -1888.08,
+          "currency": "NOK"
+        },
+        {
+          "id": "b986c0a3-be7f-4850-afd4-d7cf9f2af589",
+          "date": "2026-06-22",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -21,
+          "currency": "NOK"
+        },
+        {
+          "id": "d7dde684-be72-48e5-951f-e6a191bd29ca",
+          "date": "2026-06-22",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -1162.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "65876c49-beeb-416c-a992-adc2ab81a6bc",
+          "date": "2026-06-22",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -2226.9,
+          "currency": "NOK"
+        },
+        {
+          "id": "9ebf88a1-d3ff-40f3-958c-37eee80fa036",
+          "date": "2026-06-23",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -2214.87,
+          "currency": "NOK"
+        },
+        {
+          "id": "5c288876-9c11-4be6-a01e-a690f389901f",
+          "date": "2026-06-23",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -200,
+          "currency": "NOK"
+        },
+        {
+          "id": "61522479-c3a0-4f49-b39c-e89c078bd9a2",
+          "date": "2026-06-23",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1400,
+          "currency": "NOK"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-06-18",
+          "net": 50998.6,
+          "balance": 151948.6
+        },
+        {
+          "date": "2026-06-19",
+          "net": 23208.54,
+          "balance": 175157.14
+        },
+        {
+          "date": "2026-06-20",
+          "net": -3570.44,
+          "balance": 171586.7
+        },
+        {
+          "date": "2026-06-21",
+          "net": -3395.83,
+          "balance": 168190.87
+        },
+        {
+          "date": "2026-06-22",
+          "net": -5298.48,
+          "balance": 162892.39
+        },
+        {
+          "date": "2026-06-23",
+          "net": -3814.87,
+          "balance": 159077.52
+        }
+      ]
+    },
+    {
+      "id": "NO60010099902-NOK",
+      "name": "Kjell Aaberg",
+      "holder": "Kjell Aaberg Holder",
+      "type": "Current",
+      "product": "Valutakonto",
+      "currency": "NOK",
+      "iban": "NO2860010099902",
+      "bban": "60010099902",
+      "bic": "NDEANOKK",
+      "bankName": "Nordea",
+      "country": "NO",
+      "available": 162128.93,
+      "booked": 162128.93,
+      "status": "OPEN",
+      "transactions": [
+        {
+          "id": "42dd1e59-9b35-4165-94ca-34c1c8868d87",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -165,
+          "currency": "NOK"
+        },
+        {
+          "id": "8bbb8f41-9d17-4675-a89e-3eafafc0e3fa",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 7000,
+          "currency": "NOK"
+        },
+        {
+          "id": "65929f66-c191-475c-b8d0-93bd4a8eb3f1",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -148.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "2621e3e0-2db8-48fc-9df6-3a1e99da92c7",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 25500,
+          "currency": "NOK"
+        },
+        {
+          "id": "693cfefd-a413-4d97-a9df-ab2016455d73",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -1284.4,
+          "currency": "NOK"
+        },
+        {
+          "id": "317bc84a-3a2a-41c0-aff5-458198e359d6",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -108,
+          "currency": "NOK"
+        },
+        {
+          "id": "130bc4d8-91bc-4364-b90a-1a9e3f19b0b3",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 11000,
+          "currency": "NOK"
+        },
+        {
+          "id": "43af18ae-7273-4f0b-9949-f668f2c28e25",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -240,
+          "currency": "NOK"
+        },
+        {
+          "id": "6cb08bff-ccd7-4ff6-a3cb-c00f0fd58ce7",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -6903,
+          "currency": "NOK"
+        },
+        {
+          "id": "047b3bdd-6acc-4e5c-85c4-f8c4d59ef80e",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -287.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "c41183ff-f3d7-4dec-9864-f8b33824e482",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1020,
+          "currency": "NOK"
+        },
+        {
+          "id": "acc1fa00-692e-4592-9232-a1cc4a39bfb9",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 4602.26,
+          "currency": "NOK"
+        },
+        {
+          "id": "eab4290e-62dd-45eb-95dc-506576f5b406",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -15.96,
+          "currency": "NOK"
+        },
+        {
+          "id": "22158649-8207-47fc-bf14-e9628fd239c8",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1160,
+          "currency": "NOK"
+        },
+        {
+          "id": "15d27918-b0d6-451a-b4f1-a13bf49235c3",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -800,
+          "currency": "NOK"
+        },
+        {
+          "id": "37e2323b-4dfe-4e90-8469-32076779631b",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -975,
+          "currency": "NOK"
+        },
+        {
+          "id": "ebed3671-614b-466a-83b5-6869900c74d1",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -549.99,
+          "currency": "NOK"
+        },
+        {
+          "id": "74d82c4c-faa4-4fdb-acac-fa03ea99dccc",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -907.92,
+          "currency": "NOK"
+        },
+        {
+          "id": "548cb485-0637-437a-9872-a81275d056ff",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -200,
+          "currency": "NOK"
+        },
+        {
+          "id": "bd863793-06a3-49be-b9d0-f536e65e49b6",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 39500,
+          "currency": "NOK"
+        },
+        {
+          "id": "77df7d77-1483-49d1-87bd-465b518d9655",
+          "date": "2026-06-18",
+          "narrative": "TIL HARALD HANDFASTE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "HARALD HANDFASTE",
+          "amount": -3872.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "b4823398-feb5-4483-9b24-a9a58b14d833",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -31.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "4ec0c68a-6d32-484a-b914-710ffb90212f",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -3231.53,
+          "currency": "NOK"
+        },
+        {
+          "id": "ae87d9ca-d192-4bbb-b33e-3515376aa24f",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -440,
+          "currency": "NOK"
+        },
+        {
+          "id": "3340156e-a8da-4d41-8327-7cce19aa7fc8",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -800,
+          "currency": "NOK"
+        },
+        {
+          "id": "9de92f3e-0296-4ae9-b577-90051605c83b",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -2973.6,
+          "currency": "NOK"
+        },
+        {
+          "id": "4e8172e2-7b5d-4c76-99ad-45d9598da74a",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1400,
+          "currency": "NOK"
+        },
+        {
+          "id": "39e69df1-1dd3-4229-8ec4-8c62bc9d68a1",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -40.88,
+          "currency": "NOK"
+        },
+        {
+          "id": "bbb0bf24-94d1-45ab-9762-144bce8535ef",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -1183,
+          "currency": "NOK"
+        },
+        {
+          "id": "eee6f735-fe54-4bd6-9773-31ea86d154a7",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -4156.88,
+          "currency": "NOK"
+        },
+        {
+          "id": "d1deb299-54cf-4548-aa30-eccf5be520ff",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -369,
+          "currency": "NOK"
+        },
+        {
+          "id": "f9690122-2b1a-4ac5-9f18-5cc3b5202b03",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -75,
+          "currency": "NOK"
+        },
+        {
+          "id": "f2629d77-6e3c-420d-b21d-f21427deab25",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 141.23,
+          "currency": "NOK"
+        },
+        {
+          "id": "0517d1a7-5d28-4917-bcc0-003747d9aa03",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1820,
+          "currency": "NOK"
+        },
+        {
+          "id": "dfef796f-8ab1-43e4-8f0f-99654fb89d36",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -9239.4,
+          "currency": "NOK"
+        },
+        {
+          "id": "b66cc997-858b-435d-bf65-e4e403d157b8",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -1198.21,
+          "currency": "NOK"
+        },
+        {
+          "id": "99c25d1a-579d-4fa4-9756-947af9594d0d",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -108,
+          "currency": "NOK"
+        },
+        {
+          "id": "77b2f489-7bb1-4c17-901c-6483fe1e2e40",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -354.9,
+          "currency": "NOK"
+        },
+        {
+          "id": "4e9e4748-cc7c-49b8-bf22-4430043eecc6",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1900,
+          "currency": "NOK"
+        },
+        {
+          "id": "b9d2966d-aa6c-4074-9b26-77e3d9d8fb42",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -405.6,
+          "currency": "NOK"
+        },
+        {
+          "id": "a858211b-bfa1-4951-8e8a-4673467a2c26",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -345,
+          "currency": "NOK"
+        },
+        {
+          "id": "10bd1e4b-21d1-4b4d-93d9-e1a1ce44a8a2",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -3934.19,
+          "currency": "NOK"
+        },
+        {
+          "id": "7963ee34-a86d-4b93-b341-861717961d6a",
+          "date": "2026-06-18",
+          "narrative": "TIL HARALD HANDFASTE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "HARALD HANDFASTE",
+          "amount": -4956.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "4b691c01-f59c-4c85-9b29-894f2354e4a5",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -1888.08,
+          "currency": "NOK"
+        },
+        {
+          "id": "bce39d9e-a95b-414f-bbf1-537e608750db",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -125,
+          "currency": "NOK"
+        },
+        {
+          "id": "d61d5cc5-9117-4298-801a-3f19d01af56c",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -612.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "52268666-9dd6-4244-bd9b-338ada7672fa",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -497.61,
+          "currency": "NOK"
+        },
+        {
+          "id": "a6197f18-1492-4ac5-8e8d-ed666bd0531d",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 321.42,
+          "currency": "NOK"
+        },
+        {
+          "id": "3f1f17bd-e24d-48f9-9580-f4436dea5da6",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -23.24,
+          "currency": "NOK"
+        },
+        {
+          "id": "0c1ffe30-0562-4056-af0b-87de5e2e0536",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 82.79,
+          "currency": "NOK"
+        },
+        {
+          "id": "88ff0ba7-9c24-468e-8d82-15d4304e5b8a",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -440,
+          "currency": "NOK"
+        },
+        {
+          "id": "5ba6d0ba-6c36-4058-a4de-4cca8f0945bb",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -3398.4,
+          "currency": "NOK"
+        },
+        {
+          "id": "c55ab036-5ba1-423c-8c23-4e51d100e1e2",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -1450,
+          "currency": "NOK"
+        },
+        {
+          "id": "5682fbad-b38c-4f8d-94a7-e829b7326f6e",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 58.44,
+          "currency": "NOK"
+        },
+        {
+          "id": "35b87fde-efb3-46f2-8bec-ca629e974260",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -955.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "2eb44dfe-eb6d-4c49-966a-7d3f21696915",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -243,
+          "currency": "NOK"
+        },
+        {
+          "id": "67fa4753-f2df-47c6-84f4-8ab5f6a965e3",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -2275,
+          "currency": "NOK"
+        },
+        {
+          "id": "a77e8513-fcdf-4d5a-a836-f27593d6f071",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -2761.2,
+          "currency": "NOK"
+        },
+        {
+          "id": "da99fded-35c3-455f-a221-09cd68336c1f",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -1.4,
+          "currency": "NOK"
+        },
+        {
+          "id": "c6d03dc8-522d-44d9-9574-dcf93858de7d",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -3117.66,
+          "currency": "NOK"
+        },
+        {
+          "id": "97da5b40-f6a2-4b0c-b1bf-2d7936f0aeca",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1140,
+          "currency": "NOK"
+        },
+        {
+          "id": "f1b57581-9d21-4fda-9433-db93bfc573f7",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 17500,
+          "currency": "NOK"
+        },
+        {
+          "id": "d6c0c9d2-bfe5-4b9b-8a6f-93a8a51e539f",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -210,
+          "currency": "NOK"
+        },
+        {
+          "id": "0ac95aae-f173-48be-a18a-73edd73a5ec4",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -9982.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "d6c5210d-3b32-45b5-bb07-a4ea94c25171",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 3859.96,
+          "currency": "NOK"
+        },
+        {
+          "id": "e4db51c9-2ccc-43bd-a3cc-2dd3b47141ee",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 14500,
+          "currency": "NOK"
+        },
+        {
+          "id": "950c03ba-31b6-4418-a386-a4b3a1a7cf69",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -672.21,
+          "currency": "NOK"
+        },
+        {
+          "id": "7f3f72a3-567a-40f3-8220-97280b17d5cb",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 24000,
+          "currency": "NOK"
+        },
+        {
+          "id": "631fdb03-70dd-4592-8626-0569b8ad79df",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -27.01,
+          "currency": "NOK"
+        },
+        {
+          "id": "9bffabea-2fa4-4994-b660-ba6b0f9eee30",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -987.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "4dbff273-95a3-4989-9c9d-283505c2853d",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -11.2,
+          "currency": "NOK"
+        },
+        {
+          "id": "86672023-fb00-451b-9b14-d7dcb0ffea9d",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1540,
+          "currency": "NOK"
+        },
+        {
+          "id": "52e2b2fb-a47b-44de-be47-57b00d65beb6",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -254.17,
+          "currency": "NOK"
+        },
+        {
+          "id": "45e00c87-e988-4f27-911c-68cf3b5843b3",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -210,
+          "currency": "NOK"
+        },
+        {
+          "id": "9187b1bb-393a-4541-b77e-2698336ace63",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1173,
+          "currency": "NOK"
+        },
+        {
+          "id": "5dd0893b-a66a-4c76-8373-ec70649f11d1",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -2060,
+          "currency": "NOK"
+        },
+        {
+          "id": "8dc56b6c-415e-4291-bd78-f6f1e7179f51",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -1212.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "f9d4aaae-dd33-4023-891a-decb869328ae",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -1052.97,
+          "currency": "NOK"
+        },
+        {
+          "id": "9f4f0f4a-49f7-4409-adc6-881e2484806b",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 2301.13,
+          "currency": "NOK"
+        },
+        {
+          "id": "b643c276-d67a-40af-befe-d40efcb56173",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -310.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "7f6cbf8f-4274-4626-a9cc-4bef4fc29dfa",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -2577.96,
+          "currency": "NOK"
+        },
+        {
+          "id": "ab47caa8-7747-48e7-a7b3-9ee492b0a513",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -171,
+          "currency": "NOK"
+        },
+        {
+          "id": "b18f6f43-81cf-4a21-827c-052a64974c3f",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1275,
+          "currency": "NOK"
+        },
+        {
+          "id": "2218ffc5-8635-4595-aa99-ad0867bdf4c5",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 21500,
+          "currency": "NOK"
+        },
+        {
+          "id": "7bed5fd5-bc4d-40e3-b889-5894e523113f",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -441,
+          "currency": "NOK"
+        },
+        {
+          "id": "abfa5434-1858-4baf-af4d-15ed0fa5fa01",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -794.43,
+          "currency": "NOK"
+        },
+        {
+          "id": "010b74ec-6db5-4a5b-be19-5cef457029db",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -1911.6,
+          "currency": "NOK"
+        },
+        {
+          "id": "ebc38035-7bfa-4b60-add9-0b36dcb0ff03",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 185.06,
+          "currency": "NOK"
+        },
+        {
+          "id": "9bd10b3e-4f49-41ef-b4e3-e2f0be5d7c2f",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -305.55,
+          "currency": "NOK"
+        },
+        {
+          "id": "b2db57bf-ff8c-48e1-8e11-cabf8ab4adbb",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 87.66,
+          "currency": "NOK"
+        },
+        {
+          "id": "55bc8663-590b-4810-9293-c8ea3d06c985",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 3934.19,
+          "currency": "NOK"
+        },
+        {
+          "id": "648f1f1b-5712-4487-a036-a765ab874cd6",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1580,
+          "currency": "NOK"
+        },
+        {
+          "id": "5010680b-82f9-4ea9-9b59-8b9c164e3797",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -5310,
+          "currency": "NOK"
+        },
+        {
+          "id": "190ec1ba-0e44-4c11-93c2-a8b84a38414f",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1780,
+          "currency": "NOK"
+        },
+        {
+          "id": "871730ae-82dd-4d87-9376-c5246c0d2ce5",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -122.22,
+          "currency": "NOK"
+        },
+        {
+          "id": "96422ba4-97cd-49ab-8734-7c174c0e89a0",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -1450,
+          "currency": "NOK"
+        },
+        {
+          "id": "4a6e2735-d904-4201-b04f-66518897b59d",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -838.08,
+          "currency": "NOK"
+        },
+        {
+          "id": "d3bc7661-2ad6-4e51-8f74-16ede4d0f9d7",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -1050,
+          "currency": "NOK"
+        },
+        {
+          "id": "81ee77f6-6615-4728-b1c7-820afd8322a1",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -391,
+          "currency": "NOK"
+        },
+        {
+          "id": "e7252a08-2c1f-42da-bfce-3d86d3b87a9a",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -1750,
+          "currency": "NOK"
+        },
+        {
+          "id": "081aa5ba-38c2-45dd-a11f-699dbfbbd99b",
+          "date": "2026-06-18",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -10620,
+          "currency": "NOK"
+        },
+        {
+          "id": "0cf33a88-1d4d-4209-bc4f-c9c3614e1913",
+          "date": "2026-06-18",
+          "narrative": "RANAS SLOTT",
+          "type": "Visa varekp utland",
+          "counterparty": "RANAS SLOTT",
+          "amount": -3630.93,
+          "currency": "NOK"
+        },
+        {
+          "id": "897ba5f9-f47d-416a-88b2-3213fbf5ace8",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -2000,
+          "currency": "NOK"
+        },
+        {
+          "id": "5b6d5b45-0b35-4442-8c19-149a9f879fae",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -2000,
+          "currency": "NOK"
+        },
+        {
+          "id": "8f89b761-3c07-4d71-84da-35bce94dbf84",
+          "date": "2026-06-18",
+          "narrative": "MIKROSPAR AV : 128.20",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -2000,
+          "currency": "NOK"
+        },
+        {
+          "id": "b4981846-4e39-446c-87a9-acf1b8818dc7",
+          "date": "2026-06-18",
+          "narrative": "TIL GREEN STRM LIK BETALING",
+          "type": "Nettgiro uten melding",
+          "counterparty": "GREEN STRM",
+          "amount": -1700,
+          "currency": "NOK"
+        },
+        {
+          "id": "027a96dd-cd31-425a-85dd-ddadbee53ed5",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -1690,
+          "currency": "NOK"
+        },
+        {
+          "id": "f7ef5800-74ab-48e0-9834-ef1c1d9afb2c",
+          "date": "2026-06-18",
+          "narrative": "TIL HARALD HANDFASTE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "HARALD HANDFASTE",
+          "amount": -15490,
+          "currency": "NOK"
+        },
+        {
+          "id": "a7f80812-cb67-428d-96d4-53a88842a39a",
+          "date": "2026-06-18",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -2500,
+          "currency": "NOK"
+        },
+        {
+          "id": "59796aca-08d4-4880-8f51-9d08f61e4798",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -1250,
+          "currency": "NOK"
+        },
+        {
+          "id": "a012947a-3d67-492d-941a-9c4377f3651c",
+          "date": "2026-06-18",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -2500,
+          "currency": "NOK"
+        },
+        {
+          "id": "1fb108bf-6f59-4fa3-baf2-ebfcc42f62dd",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -450,
+          "currency": "NOK"
+        },
+        {
+          "id": "45eeb80a-da57-47a8-b2b1-f2b503537022",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -28,
+          "currency": "NOK"
+        },
+        {
+          "id": "0a371e54-1259-4059-a2d9-d3a2386deae7",
+          "date": "2026-06-18",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -73,
+          "currency": "NOK"
+        },
+        {
+          "id": "eeebb34f-d95f-48d2-ad83-2b71e7bee8b8",
+          "date": "2026-06-18",
+          "narrative": "TIL OLA BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -873,
+          "currency": "NOK"
+        },
+        {
+          "id": "826dc981-e284-4116-a49c-605e3f978e01",
+          "date": "2026-06-18",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -7423,
+          "currency": "NOK"
+        },
+        {
+          "id": "2bb51af4-0b13-4141-9fe0-1c4506af345b",
+          "date": "2026-06-18",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -500,
+          "currency": "NOK"
+        },
+        {
+          "id": "6e3e6820-fdd2-4693-bc9f-d05dcbf2c600",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 7423,
+          "currency": "NOK"
+        },
+        {
+          "id": "05d55b8e-a9d2-45cc-b6a2-614a49fb1798",
+          "date": "2026-06-18",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 487,
+          "currency": "NOK"
+        },
+        {
+          "id": "d0f1f437-5aed-4d7c-9889-2e31175ac71e",
+          "date": "2026-06-18",
+          "narrative": "FRA NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": 50000,
+          "currency": "NOK"
+        },
+        {
+          "id": "ca5792e2-cf47-492d-98ab-16a1bc9f5b40",
+          "date": "2026-06-18",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -462.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "099d81d7-d2e3-425d-b1d4-4597088cd756",
+          "date": "2026-06-18",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 7200.31,
+          "currency": "NOK"
+        },
+        {
+          "id": "aea50753-4f9f-4050-abcb-436571eddad2",
+          "date": "2026-06-18",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -126,
+          "currency": "NOK"
+        },
+        {
+          "id": "0b244395-9b4f-4372-bd75-7c5649b5c445",
+          "date": "2026-06-19",
+          "narrative": "TIL NORDEA-AVKASTNING",
+          "type": "Avtalegiro",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -328.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "d188a3bf-aca6-4994-ba96-f388a6de49dd",
+          "date": "2026-06-19",
+          "narrative": "TIL DAG REFSNES",
+          "type": "Nettgiro uten melding",
+          "counterparty": "DAG REFSNES",
+          "amount": -950,
+          "currency": "NOK"
+        },
+        {
+          "id": "7c66b742-665a-4d84-9d4b-1c06af30b054",
+          "date": "2026-06-20",
+          "narrative": "TIL SOFIE BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": -4602.26,
+          "currency": "NOK"
+        },
+        {
+          "id": "37851ccd-7d38-442e-afcc-d369634fd5e2",
+          "date": "2026-06-20",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -625,
+          "currency": "NOK"
+        },
+        {
+          "id": "131a0af5-34f7-4317-ad62-b2c17d12b641",
+          "date": "2026-06-20",
+          "narrative": "Visa varekp",
+          "type": "VIPPS",
+          "counterparty": "",
+          "amount": -36.5,
+          "currency": "NOK"
+        },
+        {
+          "id": "1fe6ce31-bb99-40e1-9331-c0b10a9b2137",
+          "date": "2026-06-21",
+          "narrative": "TIL HARALD HANDFASTE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "HARALD HANDFASTE",
+          "amount": -10688.1,
+          "currency": "NOK"
+        },
+        {
+          "id": "654646df-16d8-442e-9cc5-d69ba2aabb10",
+          "date": "2026-06-21",
+          "narrative": "MIKROSPAR AV : 45.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -2060,
+          "currency": "NOK"
+        },
+        {
+          "id": "69073ad8-5ed7-404b-8021-952773d6a7dc",
+          "date": "2026-06-21",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 34.09,
+          "currency": "NOK"
+        },
+        {
+          "id": "ba28003a-37cb-4c9c-974e-a129156da0f5",
+          "date": "2026-06-21",
+          "narrative": "FRA STEN BRAATHEN",
+          "type": "Overfrsel",
+          "counterparty": "",
+          "amount": 3934.19,
+          "currency": "NOK"
+        },
+        {
+          "id": "e3004ee8-a7d3-4fb5-8eaf-001aa1c72446",
+          "date": "2026-06-21",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -440,
+          "currency": "NOK"
+        },
+        {
+          "id": "a451be92-d66b-48fb-b912-0d4fea74ea13",
+          "date": "2026-06-22",
+          "narrative": "TIL NORA BRAATHEN",
+          "type": "Kontoregulering",
+          "counterparty": "",
+          "amount": -60,
+          "currency": "NOK"
+        },
+        {
+          "id": "a9c144c7-3838-44ad-b324-8fd16aa153a0",
+          "date": "2026-06-22",
+          "narrative": "MIKROSPAR AV : 180.00",
+          "type": "Mikrospar",
+          "counterparty": "",
+          "amount": -1040,
+          "currency": "NOK"
+        },
+        {
+          "id": "cceaff68-e0c8-4765-ad1b-baecb8d91329",
+          "date": "2026-06-22",
+          "narrative": "FRA OLA BRAATHEN",
+          "type": "Straksinnbetalning",
+          "counterparty": "",
+          "amount": 58.44,
+          "currency": "NOK"
+        },
+        {
+          "id": "2d057c33-8bc7-4001-88d3-3d5d51382a80",
+          "date": "2026-06-22",
+          "narrative": "TIL FITNESS GYM",
+          "type": "Avtalegiro",
+          "counterparty": "FITNESS GYM",
+          "amount": -450,
+          "currency": "NOK"
+        },
+        {
+          "id": "0f00f8fe-0652-4e48-97f8-b9bff312482c",
+          "date": "2026-06-22",
+          "narrative": "NORSK TIPPING EP",
+          "type": "Visa varekp",
+          "counterparty": "NORSK TIPPING EP",
+          "amount": -9982.8,
+          "currency": "NOK"
+        },
+        {
+          "id": "c43040fd-35c9-4eb3-88f1-eda4ba0cd323",
+          "date": "2026-06-23",
+          "narrative": "TIL TRYG FORSIKRING",
+          "type": "Avtalegiro",
+          "counterparty": "TRYG FORSIKRING",
+          "amount": -575,
+          "currency": "NOK"
+        },
+        {
+          "id": "5b302a49-dd49-47a5-8eea-0d0650c7ed68",
+          "date": "2026-06-23",
+          "narrative": "TIL NORDEA BANK ABP, FILIAL NORGE",
+          "type": "Nettgiro uten melding",
+          "counterparty": "NORDEA BANK ABP, FILIAL NORGE",
+          "amount": -946.4,
+          "currency": "NOK"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-06-18",
+          "net": 67886.17,
+          "balance": 190886.77
+        },
+        {
+          "date": "2026-06-19",
+          "net": -1278.5,
+          "balance": 189608.27
+        },
+        {
+          "date": "2026-06-20",
+          "net": -5263.76,
+          "balance": 184344.51
+        },
+        {
+          "date": "2026-06-21",
+          "net": -9219.82,
+          "balance": 175124.69
+        },
+        {
+          "date": "2026-06-22",
+          "net": -11474.36,
+          "balance": 163650.33
+        },
+        {
+          "date": "2026-06-23",
+          "net": -1521.4,
+          "balance": 162128.93
+        }
+      ]
+    }
+  ]
+}

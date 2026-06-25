@@ -1,0 +1,43 @@
+/* ============================================================
+   BankSnipe — Typography tokens
+   IBM Plex Sans for UI/display, IBM Plex Mono for technical
+   metadata. Tight, precise, reference-grade.
+   ============================================================ */
+:root {
+  /* ---- Families ---- */
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --font-display: var(--font-sans);
+
+  /* ---- Type scale (px) ---- */
+  --text-2xs:  11px;
+  --text-xs:   12px;
+  --text-sm:   13px;
+  --text-base: 15px;   /* default body */
+  --text-md:   16px;
+  --text-lg:   18px;
+  --text-xl:   22px;
+  --text-2xl:  28px;
+  --text-3xl:  36px;
+  --text-4xl:  48px;
+  --text-5xl:  64px;
+
+  /* ---- Weights ---- */
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semibold:600;
+  --weight-bold:    700;
+
+  /* ---- Line heights ---- */
+  --leading-tight:   1.1;
+  --leading-snug:    1.25;
+  --leading-normal:  1.45;
+  --leading-relaxed: 1.6;
+
+  /* ---- Letter spacing ---- */
+  --tracking-tight:  -0.02em;   /* large display */
+  --tracking-snug:   -0.01em;   /* headings */
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;    /* mono labels, eyebrows */
+  --tracking-wider:  0.08em;    /* all-caps micro-labels */
+}

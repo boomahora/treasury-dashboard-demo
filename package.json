@@ -1,0 +1,12 @@
+{
+  "name": "treasury-dashboard",
+  "version": "0.1.0",
+  "description": "A tiny treasury dashboard that pulls live cash positions from the Nordea Open Banking sandbox.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "fetch": "node fetch-data.mjs"
+  },
+  "license": "MIT"
+}
