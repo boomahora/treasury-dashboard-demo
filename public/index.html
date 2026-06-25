@@ -89,6 +89,8 @@
   tbody.click tr { cursor: pointer; }
   tbody.click tr:hover { background: var(--surface-alt); }
   tbody.click tr.active { background: var(--accent-tint); }
+  tbody.click tr.active td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
+  tbody.click tr.active .acct-name { color: var(--accent-hover); }
 
   .tag { display: inline-block; font-family: var(--font-mono); font-size: var(--text-2xs); padding: 2px 7px; border-radius: var(--radius-sm); background: var(--ais-bg); color: var(--ais-fg); }
 

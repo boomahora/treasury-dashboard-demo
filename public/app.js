@@ -113,9 +113,9 @@ function balanceChart(acct) {
   </div>`;
 }
 
-function accountsHTML(data) {
+function accountsHTML(data, active = 0) {
   const rows = data.accounts.map((a, i) => `
-    <tr data-i="${i}" class="${i === 0 ? 'active' : ''}">
+    <tr data-i="${i}" class="${i === active ? 'active' : ''}">
       <td><span class="acct-name">${esc(a.name)}</span><br><span class="muted mono">${esc(a.iban || a.bban)}</span></td>
       <td><span class="tag">${esc(a.type)}</span></td>
       <td class="mono muted">${esc(a.bic)}</td>
@@ -156,7 +156,7 @@ function render(data) {
       <div class="eyebrow">Balance trend — ${esc(data.accounts[active]?.name || '')}</div>
       ${balanceChart(data.accounts[active] || {})}
       <div class="eyebrow">Accounts</div>
-      ${accountsHTML(data)}
+      ${accountsHTML(data, active)}
       <div class="eyebrow">Transactions — ${esc(data.accounts[active]?.name || '')}</div>
       ${txHTML(data.accounts[active] || {})}
     `;
